@@ -1,0 +1,24 @@
+name: MGPT
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch==1.12.1
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
+  - rdkit
+  - tqdm
+  - tensorboard
+  - openbabel
+  - jupyter
+  - matplotlib
+  - seaborn
+  - pandas
+  - networkx
+  - pip
+  - pip:
+    - PyTDC
+  
